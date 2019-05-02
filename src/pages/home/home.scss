@@ -1,0 +1,90 @@
+page-home {
+    .slide-zoom{
+        width:100% !important;
+        height:100% !important;
+        img{
+            width:100% !important;
+            height:100% !important;
+            border-radius: 5px;
+        }
+    }
+
+    .filled-heart {
+        color: rgb(236, 10, 10);
+        border: #666;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(236, 10, 10);
+        margin-right: 5px;
+    }
+    
+    .empty-heart {
+        color: transparent;
+        border: #666;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #666;
+        margin-right: 5px;
+    }
+
+    .heart-button {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: #666 !important;
+        background-color: #fff !important;
+    }
+
+    .remove-button {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        color: #666;
+        border: #666;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #666;
+        background-color: #fff !important;
+    }
+
+    .approve-button {
+        position: absolute;
+        right: 60px;
+        bottom: 10px;
+        color: #666;
+        border: #666;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #666;
+        background-color: #fff !important;
+    }
+
+    .approved-button {
+        position: absolute;
+        right: 60px;
+        bottom: 10px;
+        color: green;
+        border: green;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: green;
+        background-color: #fff !important;
+    }
+
+    .next-button {
+        position: absolute;
+        right: 20px;
+        bottom: 50%;
+        color: #666;
+        border: #666;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #666;
+        background-color: #fff !important;
+    }
+
+    .prev-button {
+        position: absolute;
+        left: 20px;
+        bottom: 50%;
+        color: #666;
+        border: #666;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #666;
+        background-color: #fff !important;
+    }
+}
